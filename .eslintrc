@@ -14,7 +14,8 @@
     "jest": true
   },
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "prettier"
   ],
   "rules": {
     "no-console": "warn",
