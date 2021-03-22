@@ -1,9 +1,5 @@
 const capitalizeAndFilter = (arr) => {
-  const newArr = [];
-  for(const word of arr) {
-    if(!word.startsWith('f'))newArr.push(word.toUpperCase());
-  };
-  return newArr;
+  return arr.filter(word => !word.startsWith('f')).map(wordLowerCase => wordLowerCase.toUpperCase());
 
 };
 
